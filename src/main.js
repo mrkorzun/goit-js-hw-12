@@ -12,6 +12,9 @@ export const refs = {
   searchForm: document.querySelector('.js-form'),
 };
 
+let page = 1;
+let query = '';
+
 function onSearchInput(event) {
   event.preventDefault();
 
