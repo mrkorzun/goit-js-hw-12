@@ -81,6 +81,7 @@
 
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 150px;
 
   width: 120px;
   height: 40px;
@@ -94,6 +95,10 @@
   background-color: #4e75ff;
 
   transition: background-color 250ms linear;
+}
+
+.btn-more.is-hidden {
+  display: none;
 }
 
 .btn-more:hover,
