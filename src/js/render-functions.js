@@ -1,9 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
-
-const refs = {
-  galleryList: document.querySelector('.js-gallery'),
-  loader: document.querySelector('.loader'),
-};
+import { refs } from './refs';
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',

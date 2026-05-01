@@ -8,9 +8,7 @@ import {
   showLoader,
 } from './js/render-functions';
 
-export const refs = {
-  searchForm: document.querySelector('.js-form'),
-};
+import { refs } from './js/refs';
 
 let page = 1;
 let query = '';
