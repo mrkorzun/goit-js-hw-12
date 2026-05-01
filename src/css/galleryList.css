@@ -1,3 +1,7 @@
+section {
+  padding-bottom: 150px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
