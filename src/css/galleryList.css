@@ -18,9 +18,12 @@ section {
 .gallery-item {
   width: 100%;
 
+  border-radius: 4px;
   background: #ffffff;
-  border: 1px solid #808080;
+  box-shadow: 0px 2px 4px 0px rgba(16, 24, 51, 0.295);
   overflow: hidden;
+
+  transition: box-shadow 250ms linear;
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 24px) / 2);
@@ -29,6 +32,11 @@ section {
   @media screen and (min-width: 769px) {
     width: calc((100% - 48px) / 3);
   }
+}
+
+.gallery-item:hover,
+.gallery-item:focus {
+  box-shadow: 0px 0px 8px 0px rgba(56, 92, 221, 0.623);
 }
 
 .gallery-image {
